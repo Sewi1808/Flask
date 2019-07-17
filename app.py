@@ -8,7 +8,7 @@ def hello_world():
 @app.route('/json')
 def json_test():
 	someJson = {
-		'key1':'value1' 
+		'key1':'value1',
 		'key2':'value2'
 	}
 	return jsonify(someJson)
