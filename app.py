@@ -28,6 +28,8 @@ class Divide(Resource):
 	pass
 
 
+api=add_resource(Add, "/add")
+
 @app.route('/')
 def hello_world():
 	return "Hello World!"
