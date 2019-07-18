@@ -28,7 +28,7 @@ class Divide(Resource):
 	pass
 
 
-api=add_resource(Add, "/add")
+api.add_resource(Add, "/add")
 
 @app.route('/')
 def hello_world():
